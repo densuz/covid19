@@ -80,9 +80,9 @@ import React, { Component } from 'react';
                             <tr>
                                 <th scope="col">Country</th>
                                 <th scope="col">Last update</th>
-                                <th scope="col">Lat</th>
-                                <th scope="col">Long</th>
-                                <th scope="col">Confirmed</th>
+                                <th scope="col">Latitude</th>
+                                <th scope="col">Longitude</th>
+                                <th scope="col ">Confirmed</th>
                                 <th scope="col">Deaths</th>
                                 <th scope="col">Recovered</th>
                                 <th scope="col">Active</th>
