@@ -67,7 +67,7 @@ import React, { Component } from 'react';
         }else{
             return (
                 <div id="content" className="p-4 p-md-5">
-                    <h2 className="mb-4">Global</h2>
+                    <h2 className="mb-4">DATA COVID19 - Global</h2>
                     { summaries.map(summary => (
                         <div key={summary.id} className="row">
                             
@@ -94,7 +94,7 @@ import React, { Component } from 'react';
                                     <th scope="row">{detail.attributes.Country_Region}</th>
                                     <td>{detail.attributes.Last_Update}</td>
                                     <td>{detail.attributes.Lat}</td>
-                                    <td>{detail.attributes.Long}</td>
+                                    <td>{detail.attributes.Long_}</td>
                                     <td>{detail.attributes.Confirmed}</td>
                                     <td>{detail.attributes.Deaths}</td>
                                     <td>{detail.attributes.Recovered}</td>
