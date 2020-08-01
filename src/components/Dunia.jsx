@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import  'bootstrap'
  class Dunia extends Component {
     constructor(props){
         super(props);
